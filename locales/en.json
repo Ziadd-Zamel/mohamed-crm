@@ -1,0 +1,139 @@
+{
+  "Common": {
+    "appName": "Mohamed CRM",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "search": "Search..."
+  },
+
+  "Sidebar": {
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "companies": "Companies",
+    "deals": "Deals",
+    "tasks": "Tasks",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your CRM workspace.",
+    "currency": "EGP",
+    "stats": {
+      "contacts": "Contacts",
+      "companies": "Companies",
+      "deals": "Open deals",
+      "tasks": "Open tasks"
+    }
+  },
+  "Nav": {
+    "home": "Home",
+    "english": "English",
+    "arabic": "Arabic"
+  },
+  "Clients": {
+    "title": "Clients",
+    "subtitle": "Supplies, payments, and balance are calculated automatically from bons.",
+    "back": "Back to clients",
+    "backToClient": "Back to client",
+    "empty": "No clients yet.",
+    "searchPlaceholder": "Search by client name...",
+    "columns": {
+      "name": "Client name",
+      "supplies": "Debit (supplies)",
+      "payments": "Credit (payments)",
+      "balance": "Balance",
+      "bons": "Bons"
+    },
+    "form": {
+      "section": "Add client",
+      "dialogDescription": "Enter client details then save.",
+      "name": "Client name",
+      "namePlaceholder": "e.g. Egypt 2000 Quarry",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional note",
+      "add": "Add client",
+      "cancel": "Cancel"
+    },
+
+
+    "bons": {
+      "section": "Bons",
+      "hint": "Click a bon to open its details.",
+      "openFull": "Open full bon page",
+      "empty": "No bons yet.",
+      "container": "Container",
+      "columns": {
+        "title": "Bon",
+        "date": "Date",
+        "lines": "Lines",
+        "supplies": "Supplies",
+        "payments": "Payments",
+        "remaining": "Remaining"
+      },
+      "form": {
+        "title": "Bon title",
+        "titlePlaceholder": "Supply bon / container",
+        "containerLabel": "Container label",
+        "containerNumber": "Container no.",
+        "add": "Add bon"
+      }
+    },
+    "payments": {
+      "section": "Payments",
+      "empty": "No payments yet.",
+      "columns": {
+        "amount": "Amount",
+        "date": "Date",
+        "note": "Note"
+      },
+      "form": {
+        "amount": "Amount",
+        "note": "Note",
+        "notePlaceholder": "Optional",
+        "add": "Add payment"
+      }
+    },
+
+    "bonDetail": {
+      "section": "Bon details",
+      "empty": "No detail lines yet.",
+      "columns": {
+        "material": "Material",
+        "finishing": "Finishing",
+        "pallets": "Pallets",
+        "slabs": "Slabs",
+        "length": "Length",
+        "width": "Width",
+        "thickness": "Thickness",
+        "area": "Area",
+        "quantity": "Qty",
+        "unitPrice": "Unit price",
+        "total": "Total"
+      },
+      "totals": {
+        "row": "Totals"
+      },
+      "summary": {
+        "supplies": "Grand total",
+        "payments": "Payments",
+        "remaining": "Remaining"
+      },
+      "form": {
+        "material": "Material",
+        "finishing": "Finishing",
+        "quantity": "Quantity",
+        "unitPrice": "Unit price",
+        "slabs": "Slabs",
+        "pallets": "Pallets",
+        "length": "Length",
+        "width": "Width",
+        "thickness": "Thickness",
+        "add": "Add line",
+        "hint": "If quantity is empty and length/width/slabs are set, quantity is filled from area (L × W × slabs). Total = quantity × unit price."
+      }
+    }
+  }
+}

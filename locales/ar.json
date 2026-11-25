@@ -1,0 +1,139 @@
+{
+  "Common": {
+    "appName": "محمد CRM",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "search": "بحث..."
+  },
+
+  "Sidebar": {
+    "dashboard": "لوحة التحكم",
+    "clients": "العملاء",
+    "companies": "الشركات",
+    "deals": "الصفقات",
+    "tasks": "المهام",
+    "reports": "التقارير",
+    "settings": "الإعدادات"
+  },
+  "Dashboard": {
+    "title": "لوحة التحكم",
+    "subtitle": "نظرة عامة على مساحة عمل الـ CRM.",
+    "currency": "جنيه",
+    "stats": {
+      "contacts": "جهات الاتصال",
+      "companies": "الشركات",
+      "deals": "صفقات مفتوحة",
+      "tasks": "مهام مفتوحة"
+    }
+  },
+  "Nav": {
+    "home": "الرئيسية",
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "Clients": {
+    "title": "العملاء",
+    "subtitle": "التوريدات والدفعات والرصيد تتحسب أوتوماتيك من البونات والتفاصيل.",
+    "back": "رجوع للعملاء",
+    "backToClient": "رجوع للعميل",
+    "empty": "لا يوجد عملاء بعد.",
+    "searchPlaceholder": "ابحث باسم العميل...",
+    "columns": {
+      "name": "اسم العميل",
+      "supplies": "مدين (توريدات)",
+      "payments": "دائن (دفعات)",
+      "balance": "الرصيد",
+      "bons": "البونات"
+    },
+    "form": {
+      "section": "إضافة عميل",
+      "dialogDescription": "أدخل بيانات العميل ثم احفظ.",
+      "name": "اسم العميل",
+      "namePlaceholder": "مثال: مصر 2000 محجر",
+      "notes": "ملاحظات",
+      "notesPlaceholder": "اختياري",
+      "add": "إضافة عميل",
+      "cancel": "إلغاء"
+    },
+
+
+    "bons": {
+      "section": "البونات",
+      "hint": "اضغط على أي بون لفتح تفاصيله.",
+      "openFull": "فتح صفحة البون",
+      "empty": "لا توجد بونات بعد.",
+      "container": "رقم الحاوية",
+      "columns": {
+        "title": "البون",
+        "date": "التاريخ",
+        "lines": "الأسطر",
+        "supplies": "توريدات",
+        "payments": "دفعات",
+        "remaining": "المتبقي"
+      },
+      "form": {
+        "title": "عنوان البون",
+        "titlePlaceholder": "بون توريد / حاوية",
+        "containerLabel": "كود الحاوية",
+        "containerNumber": "رقم الحاوية",
+        "add": "إضافة بون"
+      }
+    },
+    "payments": {
+      "section": "الدفعات",
+      "empty": "لا توجد دفعات بعد.",
+      "columns": {
+        "amount": "المبلغ",
+        "date": "التاريخ",
+        "note": "ملاحظة"
+      },
+      "form": {
+        "amount": "المبلغ",
+        "note": "ملاحظة",
+        "notePlaceholder": "اختياري",
+        "add": "إضافة دفعة"
+      }
+    },
+
+    "bonDetail": {
+      "section": "تفاصيل البون",
+      "empty": "لا توجد أسطر تفصيلية بعد.",
+      "columns": {
+        "material": "خامة",
+        "finishing": "التشطيب",
+        "pallets": "عدد البلتات",
+        "slabs": "عدد الشرايح",
+        "length": "طول",
+        "width": "عرض",
+        "thickness": "السمك",
+        "area": "مسطح",
+        "quantity": "عدد",
+        "unitPrice": "سعر وحدة",
+        "total": "إجمالي"
+      },
+      "totals": {
+        "row": "الإجمالي"
+      },
+      "summary": {
+        "supplies": "إجمالي",
+        "payments": "دفعات",
+        "remaining": "المتبقي"
+      },
+      "form": {
+        "material": "خامة",
+        "finishing": "تشطيب",
+        "quantity": "عدد",
+        "unitPrice": "سعر وحدة",
+        "slabs": "شرايح",
+        "pallets": "بلتات",
+        "length": "طول",
+        "width": "عرض",
+        "thickness": "سمك",
+        "add": "إضافة سطر",
+        "hint": "لو العدد فاضي وفيه طول/عرض/شرايح، العدد يتملّى من المساحة (طول × عرض × شرايح). الإجمالي = العدد × سعر الوحدة."
+      }
+    }
+  }
+}
